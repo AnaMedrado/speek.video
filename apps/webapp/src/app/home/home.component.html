@@ -1,20 +1,9 @@
-<mat-toolbar>
-  <a routerLink="/" aria-label="Página inicial">
-    <!-- <mat-icon svgIcon="speek-logo"></mat-icon> -->
-    <!-- <img src="/assets/images/logo.svg" alt="Speek" /> -->
-    <img src="/assets/images/thunder.svg" alt="Speek" />
-  </a>
-  <span class="spacer"></span>
-  <span class="brand-name">speek</span>
-  <span class="spacer"></span>
-  <button routerLink="/setting" aria-label="Configurações" mat-icon-button>
-    <mat-icon>settings</mat-icon>
-  </button>
-</mat-toolbar>
 
-<section class="flex col justify-center">
-  <h3 class="mat-h3">
-    Sua maneira mais privada de conversar
+<section class="flex col justify-center" style="align-items: center; backdrop-filter: blur(5px); padding: 2%;">
+  <img src="/assets/images/logoHuhura.svg" alt="Logo" class="logo"/>
+
+  <h3 class="mat-h3" style="text-align: center; color: #ffffff;">
+    Uma forma segura de conversar, crie uma <br> sala privada e convide seus amigos.
     <!-- The most private way of chatting -->
   </h3>
   <button
@@ -22,55 +11,12 @@
     mat-raised-button
     (click)="create()"
     aria-label="Iniciar conversa"
+    style="border-radius: 50px; box-shadow: 0 0 0 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 0%); width: 50%;"
   >
-    Criar uma nova sala privada
+    Criar sala
     <!-- Create new private room -->
   </button>
 </section>
 
-<section class="flex col justify-center">
-  <h2 class="mat-h2">
-    OU
-  </h2>
-</section>
 
-<!-- <form class="flex col justify-center" [formGroup]="form"> -->
-<div class="flex col justify-center">
-  <mat-form-field appearance="outline" color="primary">
-    <mat-label>
-      insira a chave ou link existente
-      <!-- enter existing room key or link -->
-    </mat-label>
-    <input
-      matInput
-      autofocus
-      type="text"
-      name="code"
-      spellcheck="false"
-      autocomplete="off"
-      [formControl]="code"
-    />
-    <mat-hint>
-      fornecido por um anfitrião
-      <!-- provided by a host -->
-    </mat-hint>
-    <mat-error>
-      sua chave não funciona aqui
-      <!-- your key doesn't work here -->
-    </mat-error>
-  </mat-form-field>
-</div>
-<!-- </form> -->
 
-<footer>
-  <a
-    mat-button
-    href="https://github.com/guiseek/speek.video"
-    aria-label="acesse meu github clicando aqui"
-    rel="noreferrer noopener"
-    class="open-source"
-    target="_blank"
-  >
-    Sabia que o Speek é livre?
-  </a>
-</footer>

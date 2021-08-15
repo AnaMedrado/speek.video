@@ -7,7 +7,7 @@ import { AppModule } from './app/app.module'
 const p: WithContext<WebApplication> = {
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
-  name: 'Speek - Simples e seguro',
+  name: 'Huhura',
   about: 'Crie um link para conversar e pronto.',
   description:
     'Sua ligação funciona pessoa pra pessoa, sem servidores, sem persistência, direto ao ponto.',
