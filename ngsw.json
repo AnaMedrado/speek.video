@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1628386494843,
+  "timestamp": 1629155117564,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,14 +12,14 @@
       },
       "urls": [
         "/index.html",
-        "/main-es2015.fc54204a9f26ae76eed9.js",
-        "/main-es5.fc54204a9f26ae76eed9.js",
+        "/main-es2015.ac4cb520a20896968371.js",
+        "/main-es5.ac4cb520a20896968371.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.ae21b54dd517ada8b218.js",
         "/polyfills-es5.b7ba59033516161d2f94.js",
         "/runtime-es2015.a1ac991fc00ebf39524f.js",
         "/runtime-es5.a1ac991fc00ebf39524f.js",
-        "/styles.16a864ebbfa1b2f6919b.css"
+        "/styles.74fe3a0d31c055e3442b.css"
       ],
       "patterns": []
     },
@@ -43,9 +43,11 @@
         "/assets/icons/speek-7.png",
         "/assets/icons/speek.png",
         "/assets/icons/warn.svg",
+        "/assets/images/fundo.png",
         "/assets/images/go-ahead.svg",
         "/assets/images/loading-video.svg",
         "/assets/images/logo.svg",
+        "/assets/images/logoHuhura.svg",
         "/assets/images/network.svg",
         "/assets/images/speek-dark.svg",
         "/assets/images/speek-light.svg",
@@ -83,9 +85,11 @@
     "/assets/icons/speek-7.png": "9d672f6679f23ba2fd4f0c9b55fde3bf74df723f",
     "/assets/icons/speek.png": "7afaac7612288ffea4d3b4b41b981338678638f8",
     "/assets/icons/warn.svg": "470543798a440a3fbbc26a3b6917584ffbbd3cc9",
+    "/assets/images/fundo.png": "958c680354a316138036a8bc6c88d02f3cafc1d9",
     "/assets/images/go-ahead.svg": "d7a98ea4a413257984d9f3cec70f4106b03b4210",
     "/assets/images/loading-video.svg": "0daad904391f14da2d8b2f73d1ece0cb9ea83abe",
-    "/assets/images/logo.svg": "a846e035adda2d085041c5e8eb78351f0ee54058",
+    "/assets/images/logo.svg": "09f615ebe6309a943c07e239f5b33886389d7c29",
+    "/assets/images/logoHuhura.svg": "09f615ebe6309a943c07e239f5b33886389d7c29",
     "/assets/images/network.svg": "d29b36a025b83c45e640e1523ee996fcb9d79c5b",
     "/assets/images/speek-dark.svg": "674a69f5ec65780fb9eea9c8b895a15254c1b485",
     "/assets/images/speek-light.svg": "50f434ed0b5bd52c23d210a0a7f77863d4758b50",
@@ -105,15 +109,15 @@
     "/assets/sounds/notification/simple-2.ogg": "94743161defd1070dddbf83aaa64b76ce71c630a",
     "/assets/sounds/system/loading.ogg": "24cc5dc6f452f880857a04c2b06cd71ee2f3a2a0",
     "/assets/sounds/system/refresh-feed.ogg": "d4fd7c80e5571d4de41782cad9bab67b3c798a16",
-    "/index.html": "e494fdef8b92f1ff08ac2a1973cbd14e2340fc20",
-    "/main-es2015.fc54204a9f26ae76eed9.js": "efccf349322016f89d248932366d2011ebf4955b",
-    "/main-es5.fc54204a9f26ae76eed9.js": "76f8b360a971dee2de3a5a0744cdc5b6232c752c",
+    "/index.html": "544d96586ec2e74b9f2c43cc828c0697f350b11d",
+    "/main-es2015.ac4cb520a20896968371.js": "e68e0f6e41a6a0f20ffdcd7042110dc2c3773c18",
+    "/main-es5.ac4cb520a20896968371.js": "6137c4e55868050d131dce154c30e7eb7510290b",
     "/manifest.webmanifest": "31dc43c39c8bf7f85deaaf64147351c921e3b5c6",
     "/polyfills-es2015.ae21b54dd517ada8b218.js": "e5ae43f4b0955d48e09636d403f62a8e46570ec4",
     "/polyfills-es5.b7ba59033516161d2f94.js": "1978a68838f215982d8d9f8c6cfba642e35d7b6b",
     "/runtime-es2015.a1ac991fc00ebf39524f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.a1ac991fc00ebf39524f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.16a864ebbfa1b2f6919b.css": "1cb64dc8d1bac1f1476cc8e98b36b378de4a7f58"
+    "/styles.74fe3a0d31c055e3442b.css": "adce5d1ba941967de17783d5eeb5a50c3ee75af7"
   },
   "navigationUrls": [
     {
